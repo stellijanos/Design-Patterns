@@ -1,5 +1,9 @@
 package org.design_patterns.creational.abstractFactory;
 
+import org.design_patterns.creational.abstractFactory.interfaces.DataSourceAbstractFactory;
+import org.design_patterns.creational.abstractFactory.interfaces.Response;
+import org.design_patterns.creational.abstractFactory.interfaces.Service;
+
 public class Client {
 
     private Service service;

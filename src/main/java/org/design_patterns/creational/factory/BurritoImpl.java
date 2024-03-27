@@ -1,6 +1,8 @@
 package org.design_patterns.creational.factory;
 
-public class Burrito implements Shape{
+import org.design_patterns.creational.factory.interfaces.Shape;
+
+public class BurritoImpl implements Shape {
     @Override
     public String getShape() {
         return "Cylinder";

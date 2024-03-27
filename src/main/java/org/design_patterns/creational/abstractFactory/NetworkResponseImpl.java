@@ -1,6 +1,8 @@
 package org.design_patterns.creational.abstractFactory;
 
-public class NetworkResponse implements Response{
+import org.design_patterns.creational.abstractFactory.interfaces.Response;
+
+public class NetworkResponseImpl implements Response {
     @Override
     public String getResponse() {
         return "Network response.";

@@ -1,7 +1,7 @@
 package org.design_patterns.creational;
 
 import org.design_patterns.creational.factory.FoodFactory;
-import org.design_patterns.creational.factory.Shape;
+import org.design_patterns.creational.factory.interfaces.Shape;
 import org.junit.Test;
 import static org.junit.Assert.*;
 

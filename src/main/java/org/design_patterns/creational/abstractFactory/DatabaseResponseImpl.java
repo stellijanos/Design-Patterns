@@ -1,6 +1,8 @@
 package org.design_patterns.creational.abstractFactory;
 
-public class DatabaseResponse implements Response{
+import org.design_patterns.creational.abstractFactory.interfaces.Response;
+
+public class DatabaseResponseImpl implements Response {
     @Override
     public String getResponse() {
         return "Database response.";
