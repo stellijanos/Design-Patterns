@@ -1,4 +1,4 @@
-package org.design_patterns.creational;
+package org.design_patterns.creational.singleton;
 
 public class SingletonBillPugh {
 

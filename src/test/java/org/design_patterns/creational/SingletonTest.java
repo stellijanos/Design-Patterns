@@ -1,5 +1,6 @@
 package org.design_patterns.creational;
 
+import org.design_patterns.creational.singleton.*;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
