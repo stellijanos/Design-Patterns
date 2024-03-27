@@ -7,10 +7,10 @@ public class FoodFactory {
             return null;
         }
 
-        switch(type) {
-            case "Round" : return new Pizza();
-            case "Cylinder" : return new Burrito();
-            default: throw new IllegalArgumentException("Unknown shape");
-        }
+        return switch (type) {
+            case "Round" -> new Pizza();
+            case "Cylinder" -> new Burrito();
+            default -> throw new IllegalArgumentException("Unknown shape");
+        };
     }
 }
