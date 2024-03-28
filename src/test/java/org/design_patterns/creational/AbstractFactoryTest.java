@@ -8,7 +8,7 @@ import org.junit.Test;
 public class AbstractFactoryTest {
 
     @Test
-    public void factoryTest() {
+    public void test() {
         Client client1 = new Client(new DatabaseFactoryImpl());
         client1.communicate();
 

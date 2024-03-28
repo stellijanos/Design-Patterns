@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class FactoryTest {
 
     @Test
-    public void foodFactory() {
+    public void test() {
 
         FoodFactory factory = new FoodFactory();
 
